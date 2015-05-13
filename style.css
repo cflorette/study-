@@ -1,3 +1,4 @@
+
 /*#wrapper{
 	margin-left: auto;
 	margin-right: auto;
@@ -28,7 +29,7 @@ body{
 #header{
 	width:1200px;
 	height: 150px;
-	background-color: 337AB7;
+	background-color: #337AB7;
 	border-radius: 5px;
 /*prefix für verschiedene Browser*/
 	-moz-border-radius: 5px;
@@ -132,12 +133,7 @@ ul.menu li:hover{
 	-o-border-radius: 2px;
 
 }
-#widget {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-align: left;
-}
+
 .btn {
     position: relative;
     background-color: #EEE;
@@ -161,6 +157,22 @@ ul.menu li:hover{
 .btn .label {
     padding: 0px 3px 0px 19px;
  }
+ .glyphicon-envelope{
+	background-image: url('images/envelope.png');
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	padding-left: 30px;
+	background-color:#0076bd;
+	color: white;
+	margin: 50px:;
+}
+/*.glyphicon-envelope{
+	visibility: hidden;
+	color: red;
+	}*/
+td:hover .glyphicon-envelope{
+    visibility: visible;
+}
 #content{
 	float: right;
 	width: 880px;
@@ -191,8 +203,8 @@ ul.menu li:hover{
 color: #333;
 	font-family: Blackadder ITC;
 	font-weight: bold;
-	font-size: 24;
+	font-size: 16;
 	float: right;
-	margin-top: -10px;
+	margin-top: 10px;
 	
 }
